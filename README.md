@@ -44,8 +44,8 @@ I cut a spare Cat5 cable I had laying around and probed out the connections. I t
 
 #  Conclusion
 We now know how to drive the slider at any speed in either direction. Since the communication is so simple, we can use an Arduino to generate the control pulses and interface with other motion control hardware. I tested this with a NodeMCU since the logic levels are only 3.3V which is lower than the regular controller but still high enough to trigger each step. This would probably work with a regular Arduino with their 5V logic levels, but the wave form I measured on the scope only had 4V peak to peak so there is a ***very*** small chance that the Arduino could damage it.  
-If you're interested in seeing some more scope captures of the controller running in various modes, I've uploaded a PDF including all the scope captures I took in the captures folder. 
-I've also uploaded high res photos of the controller PCB in the Photos folder.
+If you're interested in seeing some more scope captures of the controller running in various modes, I've uploaded a PDF including all the scope captures I took. 
+I've also uploaded high res photos of the controller PCB.
 
 There remains some questions such as the min/max operating voltage, min/max current draw, what that green pins function is and why Dito made some of the questionable design decisions they did but the system has been reverse engineered to the point that it can now be fully integrated into another motion control system and as such I'm happy with the state of affairs. 
 
