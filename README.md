@@ -10,9 +10,9 @@ This is what the controller looks like
 
 ![image](https://user-images.githubusercontent.com/32988623/114130695-fa410600-98b5-11eb-9aa9-bdd4e55e1dee.png)
 
-When the system is set up, the hardware configuration looks like this. Each hardware block is connected to the other via a custom protocol carried over standard Cat5 cable. 
+When the system is set up, the hardware configuration looks like this. Each hardware block is connected to the other via a custom protocol carried over standard Cat5 cable. This document works to reverse engineer the connection between the remote and the communications hub in the hopes of building a custom controller for the system in the future. 
 
-![image](https://user-images.githubusercontent.com/32988623/114130972-881cf100-98b6-11eb-9bd0-d9ae709905d0.png)
+![image](https://user-images.githubusercontent.com/32988623/114152390-18692f00-98d3-11eb-89b6-e1433f259ecf.png)
 
 
 The primary goal of this reverse engineering is to provide an opensource control interface to allow for usage with DIY or other motion control systems, i.e. a pan tilt head or a turn table. 
