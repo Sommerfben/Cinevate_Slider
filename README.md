@@ -3,9 +3,11 @@ A short reverse engineering of the Cinevate atlas 10 camera slider controller pr
 
 # System Overview
 The Cinvate Atlas 10 camera slider is a motion control system developed in a partnership between Cinevate and Ditogear. This was sold as an add on to the Atlas slider and looked like this when mounted to the system
+
 ![image](https://user-images.githubusercontent.com/32988623/114131324-4d678880-98b7-11eb-861a-d920e9adc9d5.png)
 
 This is what the controller looks like
+
 ![image](https://user-images.githubusercontent.com/32988623/114130695-fa410600-98b5-11eb-9aa9-bdd4e55e1dee.png)
 
 When the system is set up, the hardware configuration looks like this. Each hardware block is connected to the other via a custom protocol carried over standard Cat5 cable. 
